@@ -15,8 +15,3 @@ void ft_print_alphabet (void)
 // 		letter --;
 // 	}
 // }
-
-int main ()
-{
-	return 0;
-}
