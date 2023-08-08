@@ -1,12 +1,26 @@
-void ft_rev_int_tab(int *tab, int size)
-{
-    int i = 0, swap;
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_rev_int_tab.c                                   :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: achraf <achraf@student.42.fr>              +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/08/08 19:47:20 by achraf            #+#    #+#             */
+/*   Updated: 2023/08/08 20:08:36 by achraf           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-    while ( i < (size / 2) )
-    {
-        swap = tab[i];
-        tab[i] = tab[size - i - 1];
-        tab[size - i - 1] = swap;
-        i++;
-    }
+void	ft_rev_int_tab(int *tab, int size)
+{
+	int	i;	
+	int	swap;
+
+	i = 0;
+	while (i < (size / 2))
+	{
+		swap = tab[i];
+		tab [i] = tab [size - 1 - i];
+		tab [size - 1 - i] = swap;
+		i++;
+	}
 }
