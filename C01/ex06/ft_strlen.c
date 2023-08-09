@@ -6,11 +6,11 @@
 /*   By: achraf <achraf@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/08 19:46:50 by achraf            #+#    #+#             */
-/*   Updated: 2023/08/08 19:47:08 by achraf           ###   ########.fr       */
+/*   Updated: 2023/08/08 22:32:00 by achraf           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_strlen(char *str)
+int	ft_strlen(char *str)
 {
 	int	i;
 
