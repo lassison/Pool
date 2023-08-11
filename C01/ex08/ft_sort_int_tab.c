@@ -6,7 +6,7 @@
 /*   By: achraf <achraf@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/08 19:50:22 by achraf            #+#    #+#             */
-/*   Updated: 2023/08/08 19:58:17 by achraf           ###   ########.fr       */
+/*   Updated: 2023/08/11 22:12:25 by achraf           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,9 @@ void	ft_sort_int_tab(int *tab, int size)
 {
 	int	sorted;
 	int	temp;
+	int	i;
 
+	i = 0;
 	sorted = 0;
 	while (!sorted)
 	{
