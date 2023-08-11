@@ -6,12 +6,12 @@
 /*   By: achraf <achraf@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/08 21:07:34 by achraf            #+#    #+#             */
-/*   Updated: 2023/08/09 01:30:45 by achraf           ###   ########.fr       */
+/*   Updated: 2023/08/12 00:16:39 by achraf           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_print_combn(int n)
+void	ft_print_combn(int nb)
 {
 }
