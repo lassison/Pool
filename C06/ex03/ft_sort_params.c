@@ -6,7 +6,7 @@
 /*   By: achraf <achraf@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/11 23:55:24 by achraf            #+#    #+#             */
-/*   Updated: 2023/08/11 23:56:06 by achraf           ###   ########.fr       */
+/*   Updated: 2023/08/13 13:27:19 by achraf           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ void	ft_sort_params(int argc, char *argv[])
 {
 	int	i;
 	int	j;
-	char	*temp;
+	int	*temp;
 
 	i = 1;
 	while (i < argc - 1)
